@@ -14,10 +14,10 @@
     <main>
          <header>
         <img src="assets-formularios-seo-acessibilidade/logo-culturama.png" alt="logotipo culturama">
-        <h1>Pesquisa Online</h1>
+        <h1>Pesquisa de opinião</h1>
     </header>
     <section>
-        <form action="" method="get">
+        <form action="sucesso.html" method="get">
             <fieldset>
                 <legend>Dados Pessoais</legend>
                 
@@ -34,7 +34,7 @@
                 <input id="email" type="email" name="userEmail" required>
                 <br>
                 <label for="phonenumber">Telefone</label>
-                <input id="phonenumber" type="tel" name="userPhoneNumber" pattern="[0-9] {11}" placeholder="DDD + número sem espaços ou hífen">
+                <input id="phonenumber" type="tel" name="userPhoneNumber" pattern="[0-9]{11}"placeholder="DDD + número sem espaços ou hífen">
                 <br>
                 <label for="image">Upload de foto</label>
                 <input id="image" type="file" accept="image/*" name="userImage">
