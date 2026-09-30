@@ -22,6 +22,10 @@ button {
   box-sizing: border-box;
 }
 
+body {
+  font-family: "Montserrat";
+}
+
 :root {
   --primary-color: #bf0101;
   --secondary-color: #b81515;
