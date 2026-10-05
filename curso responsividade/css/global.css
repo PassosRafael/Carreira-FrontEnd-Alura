@@ -24,6 +24,7 @@ button {
 
 body {
   font-family: "Montserrat";
+  color: var(--text-primary-color);
 }
 
 :root {
@@ -40,4 +41,19 @@ body {
   --title-weight: 700;
   --text-weight: 400;
   --menu-text-weight: 500;
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
+  margin: 0;
+  text-align: center;
+}
+
+.section-title hr {
+  height: 4px;
+  width: 180px;
+  background-color: var(--secondary-color);
+  border: none;
+  margin: 16px auto 32px;
 }
